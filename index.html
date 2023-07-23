@@ -21,6 +21,13 @@
       rel="stylesheet"
     />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope&display=swap"
+      rel="stylesheet"
+    />
+
     <script>
       tailwind.config = {
         theme: {
@@ -38,6 +45,9 @@
     <style>
       .font-poppins {
         font-family: "Poppins", sans-serif;
+      }
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
       }
     </style>
   </head>
@@ -476,7 +486,112 @@
           </div>
         </div>
       </section>
+
+      <!-- Frequently Asked -->
+      <section class="my-14 md:my-20">
+        <h1
+          class="mx-auto text-center font-semibold text-4xl mb-10 leading-[50px] md:w-full md:mb-5"
+        >
+          Frequently Asked <span class="text-[#E76F51]">Questions</span>
+        </h1>
+
+        <div class="hero">
+          <div class="hero-content flex-col lg:flex-row">
+            <img
+              src="./images/others/faq.png"
+              class="max-w-sm rounded-lg shadow-2xl w-72 md:w-full"
+            />
+            <div>
+              <div class="collapse collapse-arrow">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-medium">
+                  What are the most important things I should know about riding
+                  a bike?
+                </div>
+                <div class="collapse-content">
+                  <p>
+                    Safety First! Always obey the rules of the road. Obey all
+                    traffic signals, signs, and laws. Get in the mindset of
+                    “driving” your bike—not just “riding” your bike. This will
+                    help you be a more focused and legally compliant bike rider.
+                  </p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">
+                  How can I tell if my helmet is old and I need a new one?
+                </div>
+                <div class="collapse-content">
+                  <p>
+                    The most commonly used sign to replace a motorcycle helmet
+                    is to check the age of the helmet. If your helmet is older
+                    than five years, there is a very good chance that you might
+                    have been missing out on a lot of new features and
+                    innovations that have been made in the helmet industry.
+                  </p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">
+                  My bike has been in storage is it safe to ride?
+                </div>
+                <div class="collapse-content">
+                  <p>
+                    Take your bike to your local bike shop for a quick safety
+                    check. They can determine if it is safe to ride or needs any
+                    additional maintenance. Ask them for an estimate first
+                    before the work is done. They can call you if they discover
+                    something major in the inspection process.
+                  </p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">
+                  What rules should I follow when riding my bike?
+                </div>
+                <div class="collapse-content">
+                  <p>
+                    Follow the Law. Be Predictable. Be Conspicuous. Think Ahead.
+                    Ride Ready
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <footer class="footer p-10 bg-[#0B0D17] text-neutral-content">
+        <div class="lg:text-lg">
+          <div class="flex gap-5 mb-3">
+            <a class="font-manrope leading-6">Download Now</a>
+            <a class="font-manrope leading-6">License</a>
+          </div>
+          <div class="grid grid-cols-3 gap-y-3 lg::grid-cols-6">
+            <a class="font-manrope leading-6" href="">About</a>
+            <a class="font-manrope leading-6" href="">Features</a>
+            <a class="font-manrope leading-6" href="">Pricing</a>
+            <a class="font-manrope leading-6" href="">Help</a>
+            <a class="font-manrope leading-6" href="">Careers</a>
+            <a class="font-manrope leading-6" href="">Privacy Policy</a>
+          </div>
+          <p class="my-3 font-manrope">© 2020 bike. All rights reserved</p>
+        </div>
+        <div>
+          <span
+            class="footer-title text-[#D9DBE1] text-xl font-medium leading-7"
+            >Get The App</span
+          >
+          <div class="grid grid-cols-1 gap-4">
+            <a><img class="w-32" src="./images/others/android.png" alt="" /></a>
+            <a><img class="w-32" src="./images/others/ios.png" alt="" /></a>
+          </div>
+        </div>
+      </footer>
+    </footer>
   </body>
 </html>
